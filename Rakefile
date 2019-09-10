@@ -1,4 +1,4 @@
-require 'active_record'
+require 'active_record', "~>5.2.3"
 include ActiveRecord::Tasks
 
 DatabaseTasks.db_dir = 'db'
